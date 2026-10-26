@@ -1,0 +1,141 @@
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: darkred;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Navigation */
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header ul li a:hover {
+    color: yellow;
+}
+
+/* Main Section */
+main {
+    background-color: #c1121f;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Logo */
+main img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/* Main Heading */
+main h1 {
+    font-size: 45px;
+    margin: 10px;
+}
+
+/* Search Box */
+main input {
+    width: 300px;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+/* All Headings */
+h2 {
+    color: darkred;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Paragraphs */
+p {
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Menu Table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Table Heading */
+th {
+    background-color: darkred;
+    color: white;
+    padding: 15px;
+}
+
+/* Table Data */
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Table Hover */
+tr:hover {
+    background-color: #ffe0e0;
+}
+
+/* Footer */
+center {
+    background-color: darkred;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Horizontal Line */
+hr {
+    border: 1px solid darkred;
+}
+
+/* Mobile Screen */
+@media (max-width: 600px) {
+
+    header ul li {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    main h1 {
+        font-size: 30px;
+    }
+
+    main input {
+        width: 80%;
+    }
+
+    table {
+        width: 95%;
+    }
+}
